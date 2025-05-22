@@ -1,0 +1,438 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY webprotege "http://webprotege.stanford.edu/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#"
+     xml:base="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7sfCHS0EmeOhkJq3i7AzWm -->
+
+    <owl:ObjectProperty rdf:about="&webprotege;R7sfCHS0EmeOhkJq3i7AzWm">
+        <rdfs:label xml:lang="en">detects</rdfs:label>
+        <rdfs:range rdf:resource="&webprotege;R7godt9fhKYVSl1TmoF8lp0"/>
+        <rdfs:domain rdf:resource="&webprotege;RhWYDIctKgLoH4geHV6IFV"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8sVa4j6VpARQZwTgWdg8z2 -->
+
+    <owl:ObjectProperty rdf:about="&webprotege;R8sVa4j6VpARQZwTgWdg8z2">
+        <rdfs:label xml:lang="en">hasTimestamp</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege;R7godt9fhKYVSl1TmoF8lp0"/>
+        <rdfs:range rdf:resource="&webprotege;RXg3Xlq7GWQtw3xp0Ybnls"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9jHCVZpuSep2mWUeWFK3tH -->
+
+    <owl:ObjectProperty rdf:about="&webprotege;R9jHCVZpuSep2mWUeWFK3tH">
+        <rdfs:label xml:lang="en">locatedAt</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege;R8vCdQo16visILGDGbdhvUP"/>
+        <rdfs:range rdf:resource="&webprotege;RCidBLVTZuKlL4nNQT8Szrf"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9lIqQeW7GtjRqj2snjFgzR -->
+
+    <owl:ObjectProperty rdf:about="&webprotege;R9lIqQeW7GtjRqj2snjFgzR">
+        <rdfs:label xml:lang="en">hasPart</rdfs:label>
+        <rdfs:range rdf:resource="&webprotege;R8awsvJ2YNlpE597ZghGioo"/>
+        <rdfs:range rdf:resource="&webprotege;R8v1IflFCXjqjtAimJPoP3S"/>
+        <rdfs:domain rdf:resource="&webprotege;R8vCdQo16visILGDGbdhvUP"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDNCHX3Phg75vRsnD0jhbbm -->
+
+    <owl:ObjectProperty rdf:about="&webprotege;RDNCHX3Phg75vRsnD0jhbbm">
+        <rdfs:label xml:lang="en">inspectedBy</rdfs:label>
+        <rdfs:range rdf:resource="&webprotege;R49g8aymhhweQkoA1e1wY1"/>
+        <rdfs:domain rdf:resource="&webprotege;R8vCdQo16visILGDGbdhvUP"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbLI55zOqlurS74k24fH66 -->
+
+    <owl:ObjectProperty rdf:about="&webprotege;RbLI55zOqlurS74k24fH66">
+        <rdfs:label xml:lang="en">reportedTo</rdfs:label>
+        <rdfs:range rdf:resource="&webprotege;R8eKUsDZzdkdUOmuoFzKqj0"/>
+        <rdfs:domain rdf:resource="&webprotege;RDERN0GRh2rIMR4D3dQOJHu"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhRWSyVUnFKAXNLRhUqWF3 -->
+
+    <owl:ObjectProperty rdf:about="&webprotege;RhRWSyVUnFKAXNLRhUqWF3">
+        <rdfs:label xml:lang="en">generates</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege;R85NbvZYb09qBjJVrUHaAe3"/>
+        <rdfs:range rdf:resource="&webprotege;RDERN0GRh2rIMR4D3dQOJHu"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#partOf -->
+
+    <owl:ObjectProperty rdf:about="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#partOf">
+        <rdfs:range rdf:resource="&webprotege;R85NbvZYb09qBjJVrUHaAe3"/>
+        <rdfs:domain rdf:resource="&webprotege;RhWYDIctKgLoH4geHV6IFV"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R76IDu0eErqn4LvVUqbmfsZ -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege;R76IDu0eErqn4LvVUqbmfsZ">
+        <rdfs:label xml:lang="en">material</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege;R8Z6ety2pRmvlJg1IX0qeDc"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFb5ZeuwmUyJKZrXyA9M0i -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege;RDFb5ZeuwmUyJKZrXyA9M0i">
+        <rdfs:label xml:lang="en">alertLevel</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege;RDERN0GRh2rIMR4D3dQOJHu"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ReriJu5uN7uomvwSZCBCg0 -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege;ReriJu5uN7uomvwSZCBCg0">
+        <rdfs:label xml:lang="en">collisionForce</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege;R7godt9fhKYVSl1TmoF8lp0"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rg16rxprAGPTCplemOwXis -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege;Rg16rxprAGPTCplemOwXis">
+        <rdfs:label xml:lang="en">dimensions</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege;R8Z6ety2pRmvlJg1IX0qeDc"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R49g8aymhhweQkoA1e1wY1 -->
+
+    <owl:Class rdf:about="&webprotege;R49g8aymhhweQkoA1e1wY1">
+        <rdfs:label xml:lang="en">Inspection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7godt9fhKYVSl1TmoF8lp0 -->
+
+    <owl:Class rdf:about="&webprotege;R7godt9fhKYVSl1TmoF8lp0">
+        <rdfs:label xml:lang="en">CollisionEvent</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&webprotege;R8sVa4j6VpARQZwTgWdg8z2"/>
+                <owl:someValuesFrom rdf:resource="&webprotege;RXg3Xlq7GWQtw3xp0Ybnls"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R85NbvZYb09qBjJVrUHaAe3 -->
+
+    <owl:Class rdf:about="&webprotege;R85NbvZYb09qBjJVrUHaAe3">
+        <rdfs:label xml:lang="en">IoTDevice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Z6ety2pRmvlJg1IX0qeDc -->
+
+    <owl:Class rdf:about="&webprotege;R8Z6ety2pRmvlJg1IX0qeDc">
+        <rdfs:label xml:lang="en">BridgeComponent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8awsvJ2YNlpE597ZghGioo -->
+
+    <owl:Class rdf:about="&webprotege;R8awsvJ2YNlpE597ZghGioo">
+        <rdfs:label xml:lang="en">Span</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8eKUsDZzdkdUOmuoFzKqj0 -->
+
+    <owl:Class rdf:about="&webprotege;R8eKUsDZzdkdUOmuoFzKqj0">
+        <rdfs:label xml:lang="en">SupervisionCenter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8v1IflFCXjqjtAimJPoP3S -->
+
+    <owl:Class rdf:about="&webprotege;R8v1IflFCXjqjtAimJPoP3S">
+        <rdfs:label xml:lang="en">Abutment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8vCdQo16visILGDGbdhvUP -->
+
+    <owl:Class rdf:about="&webprotege;R8vCdQo16visILGDGbdhvUP">
+        <rdfs:label xml:lang="en">Bridge</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&webprotege;R9lIqQeW7GtjRqj2snjFgzR"/>
+                        <owl:onClass rdf:resource="&webprotege;R8awsvJ2YNlpE597ZghGioo"/>
+                        <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&webprotege;R9lIqQeW7GtjRqj2snjFgzR"/>
+                        <owl:onClass rdf:resource="&webprotege;R8v1IflFCXjqjtAimJPoP3S"/>
+                        <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:qualifiedCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9JjQjC8aPzNLdEI5DT7IzA -->
+
+    <owl:Class rdf:about="&webprotege;R9JjQjC8aPzNLdEI5DT7IzA">
+        <rdfs:label xml:lang="en">Abutment,Span</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCidBLVTZuKlL4nNQT8Szrf -->
+
+    <owl:Class rdf:about="&webprotege;RCidBLVTZuKlL4nNQT8Szrf">
+        <rdfs:label xml:lang="en">Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDERN0GRh2rIMR4D3dQOJHu -->
+
+    <owl:Class rdf:about="&webprotege;RDERN0GRh2rIMR4D3dQOJHu">
+        <rdfs:label xml:lang="en">Alert</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&webprotege;RbLI55zOqlurS74k24fH66"/>
+                <owl:onClass rdf:resource="&webprotege;R7godt9fhKYVSl1TmoF8lp0"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXg3Xlq7GWQtw3xp0Ybnls -->
+
+    <owl:Class rdf:about="&webprotege;RXg3Xlq7GWQtw3xp0Ybnls">
+        <rdfs:label xml:lang="en">DateTime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhWYDIctKgLoH4geHV6IFV -->
+
+    <owl:Class rdf:about="&webprotege;RhWYDIctKgLoH4geHV6IFV">
+        <rdfs:label xml:lang="en">Sensor</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#partOf"/>
+                <owl:someValuesFrom rdf:resource="&webprotege;R85NbvZYb09qBjJVrUHaAe3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:resource="&webprotege;RhWYDIctKgLoH4geHV6IFV"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Inspection -->
+
+    <owl:Class rdf:about="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Inspection"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Abutment1 -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Abutment1">
+        <rdf:type rdf:resource="&webprotege;R8v1IflFCXjqjtAimJPoP3S"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Abutment2 -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Abutment2">
+        <rdf:type rdf:resource="&webprotege;R8v1IflFCXjqjtAimJPoP3S"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Alert1 -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Alert1">
+        <rdf:type rdf:resource="&webprotege;RDERN0GRh2rIMR4D3dQOJHu"/>
+        <webprotege:RDFb5ZeuwmUyJKZrXyA9M0i></webprotege:RDFb5ZeuwmUyJKZrXyA9M0i>
+        <webprotege:RbLI55zOqlurS74k24fH66 rdf:resource="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#CollisionEvent1"/>
+        <webprotege:RbLI55zOqlurS74k24fH66 rdf:resource="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#SupervisionCenter1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#CagneSurMerBridge -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#CagneSurMerBridge">
+        <rdf:type rdf:resource="&webprotege;R8vCdQo16visILGDGbdhvUP"/>
+        <webprotege:R9lIqQeW7GtjRqj2snjFgzR rdf:resource="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Abutment1"/>
+        <webprotege:R9lIqQeW7GtjRqj2snjFgzR rdf:resource="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Abutment2"/>
+        <webprotege:R9lIqQeW7GtjRqj2snjFgzR rdf:resource="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#MainSpan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#CollisionEvent1 -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#CollisionEvent1">
+        <rdf:type rdf:resource="&webprotege;R7godt9fhKYVSl1TmoF8lp0"/>
+        <webprotege:R7sfCHS0EmeOhkJq3i7AzWm rdf:resource="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Sensor1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Inspection1 -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Inspection1">
+        <rdf:type rdf:resource="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Inspection"/>
+        <webprotege:RDNCHX3Phg75vRsnD0jhbbm rdf:resource="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#CagneSurMerBridge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#IoTDevice1 -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#IoTDevice1">
+        <rdf:type rdf:resource="&webprotege;R85NbvZYb09qBjJVrUHaAe3"/>
+        <webprotege:RhRWSyVUnFKAXNLRhUqWF3 rdf:resource="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Alert1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#MainSpan -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#MainSpan">
+        <rdf:type rdf:resource="&webprotege;R8awsvJ2YNlpE597ZghGioo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Sensor1 -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#Sensor1">
+        <rdf:type rdf:resource="&webprotege;RhWYDIctKgLoH4geHV6IFV"/>
+        <webprotege:R7sfCHS0EmeOhkJq3i7AzWm rdf:resource="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#CollisionEvent1"/>
+        <partOf rdf:resource="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#IoTDevice1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#SupervisionCenter1 -->
+
+    <owl:NamedIndividual rdf:about="urn:webprotege:ontology:105d2c06-38a7-4607-ab3a-ad0c5e23e3ec#SupervisionCenter1">
+        <rdf:type rdf:resource="&webprotege;R8eKUsDZzdkdUOmuoFzKqj0"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
